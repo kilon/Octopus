@@ -1,9 +1,11 @@
 {
 	"instance" : { },
 	"class" : {
-		"start" : "kilonAlios 10/23/2016 12:36",
+		"loop" : "kilonAlios 10/23/2016 17:53",
 		"installDependencies" : "kilonAlios 10/23/2016 12:29",
-		"loop" : "kilonAlios 10/23/2016 12:41",
+		"Running" : "kilonAlios 10/23/2016 17:59",
+		"stop" : "kilonAlios 10/23/2016 17:54",
+		"start" : "kilonAlios 10/23/2016 17:53",
 		"pillarToHtml" : "kilonAlios 10/23/2016 12:54"
 	}
 }

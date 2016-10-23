@@ -4,7 +4,9 @@
 	"category" : "Octopus",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Running"
+	],
 	"instvars" : [ ],
 	"name" : "Octopus",
 	"type" : "normal"
