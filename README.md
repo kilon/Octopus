@@ -27,7 +27,7 @@ Octopus stop
 and check that is running with 
 
 ```smalltalk 
-Octopus Running 
+Octopus running print
 ```
 
 The steps are easy
