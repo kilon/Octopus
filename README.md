@@ -14,19 +14,19 @@ Bare in mind that Octopus downloads and install latest development version of Pi
 
 Just issue the start command to start Octopus
 
-``` 
+```smalltalk 
 Octopus start 
 ```
 
 stop it with 
 
-``` 
+```smalltalk 
 Octopus stop 
 ```
 
 and check that is running with 
 
-``` 
+```smalltalk 
 Octopus Running 
 ```
 
