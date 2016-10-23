@@ -10,7 +10,7 @@ Metacello new baseline: 'Octopus' ; repository: 'github://kilon/Octopus:master';
 ```
 Bare in mind that Octopus downloads and install latest development version of Pillar, so it may take some time. 
 
-# Usage
+## How to use
 
 Just issue the start command to start Octopus
 
@@ -37,4 +37,7 @@ The steps are easy
 3. when you paste it will paste back the converted pillar to html
 4. Profit !!!
 
+## Why to use
 You can use Octopus for any kind of easy generation of html code :)
+
+I am using it for making my own website and blog. Make sure you save your pillar to a text file so you can always go back to it and do changes. 
