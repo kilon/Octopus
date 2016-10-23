@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #pharo
 		do:
-			[ spec package: 'Octopus' [ spec requires: #('SmaCC') ];
+			[ spec package: 'Octopus' with:[ spec requires: #('SmaCC') ];
 			       baseline: 'SmaCC' with: [ spec repository: 'http://smalltalkhub.com/mc/Pier/Pillar/main' ]. "(UIManager default confirm: '[ Octopus ]
 You wish to install dependencies  ?
 [ Pillar ]
