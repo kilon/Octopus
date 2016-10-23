@@ -4,7 +4,7 @@ baseline: spec
 	spec
 		for: #pharo
 		do:
-			[ spec package: 'Octopusr'	. (UIManager default confirm: '[ Octopus ]
+			[ spec package: 'Octopus'	. (UIManager default confirm: '[ Octopus ]
 You wish to install dependencies  ?
 [ Pillar ]
  (this will take some time) ') ifTrue: [Gofer new 
