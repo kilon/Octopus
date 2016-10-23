@@ -5,7 +5,8 @@ baseline: spec
 		for: #pharo
 		do:
 			[ spec package: 'Octopus' with:[ spec requires: #('Pillar') ];
-			       baseline: 'Pillar' with: [ spec repository: 'http://smalltalkhub.com/mc/Pier/Pillar/main' ]. "(UIManager default confirm: '[ Octopus ]
+			       configuration: 'Pillar' with: [ spec repository: 'http://smalltalkhub.com/mc/Pier/Pillar/main';
+	                                                             version: #development]. "(UIManager default confirm: '[ Octopus ]
 You wish to install dependencies  ?
 [ Pillar ]
  (this will take some time) ') ifTrue: [Gofer new 
