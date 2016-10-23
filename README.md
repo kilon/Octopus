@@ -8,6 +8,7 @@ Just open a pharo Playground and do the following command
 ```smalltalk
 Metacello new baseline: 'Octopus' ; repository: 'github://kilon/Octopus:master';load.
 ```
+Bare in mind that Octopus downloads and install latest development version of Pillar, so it may take some time. 
 
 # Usage
 
@@ -34,3 +35,4 @@ The steps are easy
 1. Start Octopus
 2. copy/cut pillar syntax from any place, editor , whatever you want after you add 'pillar' at the top of it, so Octopus knows you want to do the conversion and its not just a regular copy/cut paste
 3. when you paste it will paste back the converted pillar to html
+4. Profit
