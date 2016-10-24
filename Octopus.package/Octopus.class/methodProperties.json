@@ -4,8 +4,9 @@
 		"isRunning" : "kilonAlios 10/24/2016 10:51",
 		"installDependencies" : "kilonAlios 10/23/2016 12:29",
 		"loop" : "kilonAlios 10/24/2016 10:51",
-		"stop" : "kilonAlios 10/23/2016 17:54",
-		"start" : "kilonAlios 10/23/2016 17:53",
+		"stop" : "kilonAlios 10/24/2016 11:02",
+		"inspectRunningState" : "kilonAlios 10/24/2016 11:03",
+		"start" : "kilonAlios 10/24/2016 11:02",
 		"pillarToHtml" : "kilonAlios 10/23/2016 12:54"
 	}
 }
