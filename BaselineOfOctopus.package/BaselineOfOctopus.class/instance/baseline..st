@@ -1,10 +1,14 @@
-as yet unclassified
+baselines
 baseline: spec
 	<baseline>
 	spec
 		for: #pharo
 		do:
-			[ spec package: 'Octopus' with:[ spec requires: #('Pillar') ];
+			[ 
+			spec
+				preLoadDoIt: #preload:package:;
+				postLoadDoIt: #postload:package:.
+			spec package: 'Octopus' with:[ spec requires: #('Pillar') ];
 			       configuration: 'Pillar' with: [ spec repository: 'http://smalltalkhub.com/mc/Pier/Pillar/main';
 	                                                             version: #development]. "(UIManager default confirm: '[ Octopus ]
 You wish to install dependencies  ?
